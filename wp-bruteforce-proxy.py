@@ -15,6 +15,8 @@ from datetime import datetime
 import json
 import queue
 
+#Usage - python brute_fixed_proxies.py -l vuln.txt --use-proxies --proxy-login-only --verify-proxies -w 50 -s 20 --delay 0.1
+
 # Disable SSL warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 init(autoreset=True)  # Initialize colorama
