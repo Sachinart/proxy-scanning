@@ -3,6 +3,7 @@
 # Live rotating proxy httpx script - Each target hits only once via rotating proxies
 proxies=(
     "http://brd-customer-hl_13f0992f-zone-isp_proxy1:3oum96anzdy0@brd.superproxy.io:33335"
+    "http://brd-customer-hl_13f0992f-zone-isp_proxy2-ip-185.95.102.200:g06lnrjbgtq6@brd.superproxy.io:33335"
     "http://brd-customer-hl_13f0992f-zone-datacenter_proxy1-ip-121.91.181.235:fkuwb80u4mxx@brd.superproxy.io:33335"
     "http://brd-customer-hl_13f0992f-zone-datacenter_proxy1-ip-103.240.166.44:fkuwb80u4mxx@brd.superproxy.io:33335"
     "http://brd-customer-hl_13f0992f-zone-datacenter_proxy1-ip-121.91.180.91:fkuwb80u4mxx@brd.superproxy.io:33335"
